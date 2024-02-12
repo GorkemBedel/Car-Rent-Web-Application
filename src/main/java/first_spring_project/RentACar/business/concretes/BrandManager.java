@@ -42,7 +42,6 @@ public class BrandManager implements BrandService{
 	private ModelMapperService modelMapperService;
 
 	
-	@Autowired
 	public BrandManager(BrandRepository brandRepository) {
 		this.brandRepository = brandRepository;
 	}
